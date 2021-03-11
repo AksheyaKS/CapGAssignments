@@ -1,0 +1,69 @@
+package com.cg.jpal.ui;
+
+import java.util.Scanner;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityTransaction;
+
+import com.cg.jpal.entity.Author;
+import com.cg.jpal.util.JpaUtil;
+
+public class AuthorFunctions {
+
+	public static void main(String[] args) {
+		
+		EntityManager em = JpaUtil.getEntityManager();
+		Scanner s = new Scanner(System.in);
+		int choice;
+		
+		do {
+			
+			System.out.println("Choose one of the following operations to perform:\n");
+			System.out.println("1. Insert rows into table");
+			System.out.println("2. Update row");
+			System.out.println("3. Delete row");
+			System.out.println("4. Display particular details");
+			System.out.println("5. Exit\n");
+			
+			choice = s.nextInt();
+			
+			loop:
+				if(choice < 0 || choice > 5) {
+					
+					System.out.println("Please enter a valid choice");
+					break loop;
+				}
+			
+			switch(choice) {
+			
+				case 1:
+					EntityTransaction insert = em.getTransaction();
+					System.out.println("Enter the number of authors you want to enter: ");
+					int count = s.nextInt();
+					
+					for(int i = 0; i < count; i++) {
+						
+						System.out.println("Enter the author Id: ");
+						Long authorId = s.nextLong();
+						System.out.println("Enter the author's first name: ");
+						String firstName = s.next();
+						System.out.println("Enter the author's middle name: ");
+						String middleName = s.next();
+						System.out.println("Enter the author's last name: ");
+						String lastName = s.next();
+						
+						Author a = new Author(authorId, firstName, middleName, lastName);
+						
+						insert.begin();
+						em.persist(a);
+						insert.commit();
+						
+					}
+					
+					break;
+			
+			}
+
+	}while(choice != 5);
+
+}

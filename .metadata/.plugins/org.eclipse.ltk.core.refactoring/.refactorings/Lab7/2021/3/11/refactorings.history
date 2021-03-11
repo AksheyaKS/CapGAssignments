@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.cg.eis.servicd&apos; to &apos;com.cg.eis.service&apos;&#x0D;&#x0A;- Original project: &apos;Lab7&apos;&#x0D;&#x0A;- Original element: &apos;Lab7/src/com.cg.eis.servicd&apos;&#x0D;&#x0A;- Renamed element: &apos;Lab7/src/com.cg.eis.service&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.cg.eis.servicd&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.cg.eis.servicd" name="com.cg.eis.service" qualified="false" references="true" stamp="1615466138234" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,32 @@
+package labTwo;
+
+import java.util.Scanner;
+import java.util.TreeSet;
+
+public class SortStrings {
+	
+	static TreeSet<String> getSorted(TreeSet <String> ts){
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+		 TreeSet <String> ts = new TreeSet <String> ();
+		 Scanner s = new Scanner(System.in);
+		 System.out.println("Enter the number of elements: ");
+		 int num = s.nextInt();
+		 
+		 System.out.println("Enter " + num + " elements");
+		 for(int i = 1; i <= num; i++) {
+			 
+			 ts.add(s.next());
+			 
+		 }
+		 
+		 s.close();
+
+	}
+
+}

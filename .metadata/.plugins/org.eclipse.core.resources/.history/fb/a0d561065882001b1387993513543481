@@ -1,0 +1,18 @@
+package labSix;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Voters {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the number of people: ");
+		int num = s.nextInt();
+		
+		HashMap <Integer,Integer> people = new HashMap <> ();
+
+	}
+
+}

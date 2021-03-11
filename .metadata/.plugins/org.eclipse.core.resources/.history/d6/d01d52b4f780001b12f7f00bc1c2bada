@@ -1,0 +1,36 @@
+package com.cg.jpal.ui;
+
+import java.util.Scanner;
+
+import javax.persistence.EntityManager;
+
+import com.cg.jpal.util.JpaUtil;
+
+public class AuthorFunctions {
+
+	public static void main(String[] args) {
+		
+		EntityManager em = JpaUtil.getEntityManager();
+		Scanner s = new Scanner(System.in);
+		int choice;
+		
+		do {
+			
+			System.out.println("Choose one of the following operations to perform:\n");
+			System.out.println("1. Insert rows into table");
+			System.out.println("2. Retrieve all rows");
+			System.out.println("3. Retrieve particular row");
+			System.out.println("4. Exit\n");
+			
+			choice = s.nextInt();
+			
+			loop:
+				if(choice < 0 || choice > 4) {
+					
+					System.out.println("Please enter a valid choice");
+					break loop;
+				}
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package labSix;
+
+import java.util.Scanner;
+
+public class Voters {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		
+
+	}
+
+}

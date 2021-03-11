@@ -1,0 +1,30 @@
+package labThree;
+
+import java.util.Scanner;
+
+public class ReplaceConsonant {
+	
+	static String alterString(String str) {
+		
+		
+		
+		boolean vowel = true;
+		
+		for(int i = 0; i < str.length(); i++) {
+			
+			if(str[i] == )
+			
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Please enter a string: ");
+		String str = s.next();
+
+	}
+
+}

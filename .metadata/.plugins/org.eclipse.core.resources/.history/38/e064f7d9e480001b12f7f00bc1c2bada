@@ -1,0 +1,39 @@
+package labTwo;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+
+public class SortStrings {
+	
+	static ArrayList<String> getSorted(ArrayList <String> list){
+		
+		Collections.sort(list);
+		for(int i = 0;i < ts.size(); i++) {
+			
+			ts[i].
+			
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		
+		List <String> list = new ArrayList <> ();
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the number of elements: ");
+		int num = s.nextInt();
+		 
+		System.out.println("Enter " + num + " elements");
+		for(int i = 1; i <= num; i++) {
+			 
+			list.add(s.next());
+			 
+		}
+		 
+		s.close();
+
+	}
+
+}

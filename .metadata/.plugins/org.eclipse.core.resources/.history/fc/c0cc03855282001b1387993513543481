@@ -1,0 +1,17 @@
+package labSix;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class HashMapSort {
+
+	public static void main(String[] args) {
+		
+		HashMap<String, Integer> hMap = new HashMap <> ();
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the number of elements: ");
+		int size = s.nextInt();
+
+	}
+
+}

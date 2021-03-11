@@ -1,0 +1,35 @@
+package labThree;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.sun.tools.javac.util.List;
+
+public class NumberFunctions {
+	
+	static int modifyNumber(int number) {
+		
+		List <Integer> list = new ArrayList <> ();
+		while(number != 0) {
+			
+			list.add(number % 10);
+			number /= 10;
+			
+		}
+		
+		int num = 0;
+		
+		for(int i = 0; i < list.)
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Please enter a number: ");
+		int number = s.nextInt();
+
+	}
+
+}

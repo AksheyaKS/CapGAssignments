@@ -1,0 +1,16 @@
+package com.cg.eis.pl;
+
+import java.util.Scanner;
+
+import com.cg.eis.service.IEmployeeService;
+
+public class EmployeeFunctions {
+
+	public static void main(String[] args) {
+		
+		private static IEmployeeService employeeService;
+		private static Scanner s;
+
+	}
+
+}

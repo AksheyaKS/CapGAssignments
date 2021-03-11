@@ -1,0 +1,13 @@
+package labSix;
+
+import java.util.Scanner;
+
+public class Medals {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package labSix;
+
+import java.util.HashMap;
+
+public class HashMapSort {
+
+	public static void main(String[] args) {
+		
+		HashMap<String, Integer> hMap = new HashMap <> ();
+
+	}
+
+}

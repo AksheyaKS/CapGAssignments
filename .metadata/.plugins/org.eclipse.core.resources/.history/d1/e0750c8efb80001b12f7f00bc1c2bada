@@ -1,0 +1,41 @@
+package com.cg.jpal.ui;
+
+import java.util.Scanner;
+
+import javax.persistence.EntityManager;
+
+import com.cg.jpal.util.JpaUtil;
+
+public class AuthorFunctions2 {
+
+	public static void main(String[] args) {
+		
+		Long authorId;
+		EntityManager em = JpaUtil.getEntityManager();
+		Scanner s = new Scanner(System.in);
+		int choice;
+		
+		do {
+			
+			System.out.println("Choose one of the following operations to perform:\n");
+			System.out.println("1. Insert rows into author table");
+			System.out.println("2. Insert rows into books table");
+			System.out.println("3. View all books");
+			System.out.println("4. View all books specific to author");
+			System.out.println("5. View books priced b/w 500 to 1000");
+			System.out.println("6. View author of particular book");
+			System.out.println("7. Exit\n");
+			
+			choice = s.nextInt();
+			
+			loop:
+				if(choice < 0 || choice > 7) {
+					
+					System.out.println("Please enter a valid choice");
+					break loop;
+				}
+
+		}while(choice != 7);
+
+	}
+}

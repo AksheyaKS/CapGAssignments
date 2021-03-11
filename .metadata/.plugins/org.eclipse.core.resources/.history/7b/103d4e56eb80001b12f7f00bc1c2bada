@@ -1,0 +1,22 @@
+package labThree;
+
+import java.util.Scanner;
+
+public class NumberFunctions {
+	
+	static int modifyNumber(String str) {
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Please enter a number: ");
+		int number = s.nextInt();
+
+	}
+
+}

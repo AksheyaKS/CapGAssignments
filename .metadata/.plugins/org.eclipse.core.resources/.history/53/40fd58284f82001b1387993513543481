@@ -1,0 +1,7 @@
+package labFive;
+
+public class LabException extends Exception{
+	
+	
+
+}

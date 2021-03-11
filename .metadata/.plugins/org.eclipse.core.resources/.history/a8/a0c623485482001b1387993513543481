@@ -1,0 +1,21 @@
+package labSix;
+
+import java.util.Scanner;
+
+public class CharacterCount {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter a string: ");
+		String str = s.next();
+		
+		char [] c = str.toCharArray();
+		
+		HashMap <Character,Integer> count = countChars(c);
+		
+		
+
+	}
+
+}

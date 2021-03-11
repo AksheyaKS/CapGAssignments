@@ -1,0 +1,37 @@
+package labThree;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+public class ParseString {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Please enter a string of integers: ");
+		String str = s.next();
+		
+		List <Integer> list = new ArrayList <> ();
+		
+		StringTokenizer st = new StringTokenizer(str," ");
+		
+		while(st.hasMoreTokens()) {
+			
+			
+			
+		}	
+			
+			
+		
+		StringTokenizer st = new StringTokenizer(," ");  
+	     while (st.hasMoreTokens()) {  
+	         System.out.println(st.nextToken());  
+	     }  
+	   }  
+
+	}
+
+}

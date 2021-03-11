@@ -1,0 +1,18 @@
+package com.cg.eis.service;
+
+import java.util.HashMap;
+
+import com.cg.eis.bean.Employee;
+
+public class EmployeeServiceImpl implements IEmployeeService{
+	
+	private HashMap <Integer,Employee> employees;
+	
+	@Override
+	public String add_employee(Employee employee) {
+		
+		
+		
+	}
+
+}

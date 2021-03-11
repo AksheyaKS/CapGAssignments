@@ -1,0 +1,13 @@
+package labThree;
+
+import java.util.Scanner;
+
+public class ParseString {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+
+	}
+
+}

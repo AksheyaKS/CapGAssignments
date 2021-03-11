@@ -1,0 +1,30 @@
+package labThree;
+
+import java.util.Scanner;
+
+public class NumberFunctions {
+	
+	static int modifyNumber(int number) {
+		
+		int newNum, temp = 0;
+		
+		newNum = number % 10;
+		
+		while(number != 0) {
+			
+			temp = number % 10;
+			
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Please enter a number: ");
+		int number = s.nextInt();
+
+	}
+
+}
