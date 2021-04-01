@@ -1,0 +1,6 @@
+package labNine;
+
+@FunctionalInterface
+public interface AddSpace {
+
+}

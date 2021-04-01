@@ -1,0 +1,22 @@
+package labNine;
+
+import java.util.Scanner;
+
+public class LambdaExercise1 extends Power{
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+
+		System.out.println("Enter the number: ");
+		int number = scan.nextInt();
+		System.out.println("Enter the Exponent : ");
+		int exponent=scan.nextInt();
+		XPowerOfY ans=(x, y) -> { return (int) Math.pow(x, y); };
+		System.out.println("Result is "+ans.power(base, exponent));
+		
+		scan.close();
+
+	}
+
+}

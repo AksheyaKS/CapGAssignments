@@ -1,0 +1,9 @@
+package labNine;
+
+import java.util.Scanner;
+
+public class LambdaExercise3 {
+	
+	Scanner s = new Scanner(System.in);
+
+}

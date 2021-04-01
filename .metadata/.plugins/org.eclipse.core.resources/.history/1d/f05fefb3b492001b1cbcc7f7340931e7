@@ -1,0 +1,24 @@
+package labNine;
+
+import java.util.Scanner;
+
+public class LambdaExercise2 {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+
+		System.out.println("Enter the string: ");
+		int number = s.nextInt();
+		
+		System.out.println("Enter the exponent value: ");
+		int exponent = s.nextInt();
+		
+		Power result = (x, y) -> { return (int) Math.pow(x, y); };
+		
+		System.out.println("Result is "+ result.exponent(number, exponent));
+		s.close();
+
+	}
+
+}

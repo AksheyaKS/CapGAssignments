@@ -1,0 +1,33 @@
+package labNine;
+
+import java.util.Scanner;
+
+public class LambdaExercise3 {
+
+	public static void main(String[] args) {
+		
+		final String PASS = "Blabla";
+		boolean valid = false;
+		
+		Scanner s = new Scanner(System.in);
+
+		System.out.println("Enter your name: ");
+		String name = s.next();
+		
+		System.out.println("Enter your password: ");
+		String password = s.next();
+		
+		ValidateUserLogin correctLogin = (login, pass) -> { 
+			if(pass.equals(PASS)) {
+				valid = true;
+			}
+			space.deleteCharAt(space.length() - 1);
+			return space.toString();
+		};
+		System.out.println("Result is "+ result.addSpace(string));
+		
+		s.close();
+
+	}
+
+}

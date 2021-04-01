@@ -1,0 +1,25 @@
+package labNine;
+
+import java.util.Scanner;
+
+public class LambdaExercise2 {
+	
+	Scanner s = new Scanner(System.in);
+
+	System.out.println("Enter a string: ");
+	String string = s.next();
+	ChangeString ans=(str) -> { 
+		StringBuilder modify=new StringBuilder();
+		char[] array=str.toCharArray();
+		for(char ch :array) {
+			modify.append(ch);
+			modify.append(" ");
+		}
+		modify.deleteCharAt(modify.length()-1);
+		return modify.toString();
+	};
+	System.out.println("Result is "+ans.modify(string));
+	
+	scan.close();
+
+}
