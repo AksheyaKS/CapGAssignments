@@ -1,0 +1,16 @@
+package labEight;
+
+import java.util.Timer;
+
+public class RefreshUI {
+
+	public static void main(String[] args) {
+		
+		RefreshThread rt = new RefreshThread();
+		Timer t = new Timer();
+	    t.schedule(t1, 10000);
+		
+
+	}
+
+}

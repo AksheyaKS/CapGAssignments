@@ -1,0 +1,30 @@
+package labEight;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+
+public class CopyThread extends Thread{
+
+	public void run() {
+		
+		int flag = 0;
+		FileReader fr=new FileReader(source);
+		FileWriter fw =new FileWriter(destination,true);
+		int character = 0;
+		while((character=fr.read())!=-1) {
+			fw.write((char)character);
+			fw.flush();
+			flag++;
+			if(flag == 10) {
+				System.out.println("10 characters copied");
+				flag = 0;
+				Thread.sleep(1000);
+			}
+		}
+		fw.close();
+		fr.close();
+		System.out.println("Completed copying");
+		
+	}
+	
+}

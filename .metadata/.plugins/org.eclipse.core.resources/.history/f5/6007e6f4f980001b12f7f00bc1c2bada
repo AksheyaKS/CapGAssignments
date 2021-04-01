@@ -1,7 +1,0 @@
-package com.cg.jpal.entity;
-
-import java.io.Serializable;
-
-public class Author2 implements Serializable{
-
-}

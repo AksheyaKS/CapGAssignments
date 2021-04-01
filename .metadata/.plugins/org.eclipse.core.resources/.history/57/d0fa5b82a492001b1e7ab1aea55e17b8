@@ -1,0 +1,11 @@
+package labEight;
+
+public class CopyThread extends Thread{
+
+	public void run() {
+		
+		
+		
+	}
+	
+}
